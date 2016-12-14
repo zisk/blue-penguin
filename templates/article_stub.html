@@ -33,7 +33,7 @@
                     {% endif %}
                 </div>
 		{% if articles_page %}
-		<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Click to read and post comments</a>
+		<a href="{{ SITEURL }}/{{ article.url }}">Click to read</a>
 		{% else %}
 		{% include "disqus.html" %}
 		{% endif %}
